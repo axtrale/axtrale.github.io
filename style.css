@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    font-size: 2.5vh;
+}
+
+header nav {
+    margin: 0;
+    background-color: black;
+}
+
+header ul {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 1%;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#mainTitle {
+    text-align: center;
+}
+
+hr {
+    width: 25%;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+footer p {
+    color: gray;
+    text-align : center;
+}
