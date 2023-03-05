@@ -6,6 +6,11 @@
 body {
     margin: 0;
     font-size: 2.5vh;
+    background: url("background.png") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
 }
 
 header {
@@ -15,7 +20,8 @@ header {
 
 header nav {
     margin: 0;
-    background-color: black;
+    /* background-color: black; */
+    background-color: #FFFFFFAA;
 }
 
 header ul {
@@ -30,7 +36,7 @@ header ul li {
 }
 
 header ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -43,12 +49,20 @@ main {
     text-align: center;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 hr {
     width: 25%;
 }
 
+#logo {
+    width: 15%;
+}
+
 a {
-    color: blue;
+    color: white;
     text-decoration: underline;
 }
 
@@ -83,8 +97,10 @@ footer p {
 .button {
     display: inline-block;
     border-radius: 5px;
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    background-color: #FFFFFFAA;
+    /* color: white; */
+    color: black;
     text-decoration: none;
     padding: 1% 6%;
     cursor: pointer;
