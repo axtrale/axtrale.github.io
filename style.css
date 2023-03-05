@@ -8,6 +8,11 @@ body {
     font-size: 2.5vh;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 header nav {
     margin: 0;
     background-color: black;
@@ -52,7 +57,7 @@ footer p {
     text-align : center;
 }
 
-#openAnnouncement {
+.announcement {
     border: 1px solid blue;
     border-radius: 5px;
     background-color: royalblue;
@@ -60,17 +65,43 @@ footer p {
     padding: 1%;
 }
 
-#openAnnouncement p {
+.announcement p {
     color: white;
 }
 
-#openAnnouncement a {
+.announcement a {
     color: white;
     text-decoration: underline;
 }
 
-#openAnnouncement span {
+.announcement span {
     color: white;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1% 6%;
+    cursor: pointer;
+}
+
+.copyClipboard {
+    background-color: limegreen;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+}
+
+.copyClipboard p {
+    color: white;
+}
+
+.none {
+    display: none;
 }
