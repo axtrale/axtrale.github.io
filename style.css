@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -20,7 +20,6 @@ header {
 
 header nav {
     margin: 0;
-    /* background-color: black; */
     background-color: #FFFFFFAA;
 }
 
@@ -72,24 +71,26 @@ footer p {
 }
 
 .announcement {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    border: 1px solid #FFFFFFDE;
     border-radius: 5px;
-    background-color: royalblue;
+    /* background-color: royalblue; */
+    background-color: #FFFFFFAA;
     margin: 1%;
     padding: 1%;
 }
 
 .announcement p {
-    color: white;
+    color: black;
 }
 
 .announcement a {
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 
 .announcement span {
-    color: white;
+    color: black;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -97,9 +98,7 @@ footer p {
 .button {
     display: inline-block;
     border-radius: 5px;
-    /* background-color: black; */
     background-color: #FFFFFFAA;
-    /* color: white; */
     color: black;
     text-decoration: none;
     padding: 1% 6%;
@@ -107,17 +106,40 @@ footer p {
 }
 
 .copyClipboard {
-    background-color: limegreen;
-    border: 1px solid green;
+    /* background-color: limegreen;
+    border: 1px solid green; */
+    background-color: #FFFFFFAA;
+    border: 1px solid #FFFFFFDE;
     border-radius: 5px;
     padding: 1%;
     margin: 1%;
 }
 
 .copyClipboard p {
-    color: white;
+    color: black;
 }
 
 .none {
     display: none;
+}
+
+article {
+    border: 1px solid #FFFFFFAA;
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+.leftArticle {
+    float: left;
+    width: 49%;
+}
+
+.rightArticle {
+    float: right;
+    width: 49%;
+}
+
+.clear {
+    clear: both;
 }
