@@ -71,13 +71,15 @@ footer p {
 }
 
 .announcement {
-    /* border: 1px solid blue; */
     border: 1px solid #FFFFFFDE;
     border-radius: 5px;
-    /* background-color: royalblue; */
     background-color: #FFFFFFAA;
     margin: 1%;
     padding: 1%;
+}
+
+.announcementTitle {
+    font-weight: bold;
 }
 
 .announcement p {
