@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-size: 2.5vh;
-    background: url("background.png") no-repeat;
+    background: url("../img/background.png") no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -144,4 +144,20 @@ article {
 
 .clear {
     clear: both;
+}
+
+#titleRules {
+    text-align: center;
+}
+
+#contentRules {
+    background-color: #FFFFFFAA;
+    color: black;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.subtitleRules {
+    font-size: 3vh;
+    font-weight: bold;
 }
